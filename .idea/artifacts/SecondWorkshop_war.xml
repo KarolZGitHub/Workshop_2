@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SecondWorkshop:war">
+    <output-path>$PROJECT_DIR$/SecondWorkshop/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SecondWorkshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SecondWorkshop.war">
+      <element id="artifact" artifact-name="SecondWorkshop:war exploded" />
+    </root>
+  </artifact>
+</component>
